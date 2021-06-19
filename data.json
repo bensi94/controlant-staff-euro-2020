@@ -1,0 +1,1562 @@
+{
+    "Bjarki Bernardsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "Croatia",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Switzerland",
+            "Russia",
+            "Austria",
+            "England",
+            "Poland",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Netherlands",
+            "Spain",
+            "England",
+            "Italy",
+            "Switzerland",
+            "Portugal"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Netherlands",
+            "Belgium",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Spain"
+        ],
+        "1st place": "France",
+        "2nd place": "Spain"
+    },
+    "Hermann Ragnar Björnsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Switzerland",
+            "Denmark",
+            "Austria",
+            "Czech Republic",
+            "Sweden",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Match 40 Winner",
+            "Netherlands",
+            "Spain",
+            "Czech Republic",
+            "Italy",
+            "Denmark",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Netherlands",
+            "Match 40 Winner",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Match 50 Winner"
+        ],
+        "1st place": "France",
+        "2nd place": "Match 50 Winner"
+    },
+    "Hákon Haraldsson": {
+        "First place in group": [
+            "Italy",
+            "Russia",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Belgium",
+            "Ukraine",
+            "Scotland",
+            "Sweden",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Poland",
+            "Netherlands",
+            "Spain",
+            "Sweden",
+            "Italy",
+            "Belgium",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Netherlands",
+            "Italy",
+            "Germany"
+        ],
+        "Finals qualifiers": [
+            "Italy",
+            "Germany"
+        ],
+        "1st place": "Germany",
+        "2nd place": "Italy"
+    },
+    "Lena Snorradottir": {
+        "First place in group": [
+            "Turkey",
+            "Russia",
+            "Ukraine",
+            "Scotland",
+            "Spain",
+            "Portugal"
+        ],
+        "Second place in group": [
+            "Italy",
+            "Denmark",
+            "Netherlands",
+            "England",
+            "Poland",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "Portugal",
+            "France",
+            "Croatia",
+            "Spain",
+            "England",
+            "Turkey",
+            "Italy",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "Portugal",
+            "Italy",
+            "Turkey",
+            "Germany"
+        ],
+        "Finals qualifiers": [
+            "Portugal",
+            "Italy"
+        ],
+        "1st place": "Portugal",
+        "2nd place": "Italy"
+    },
+    "Bjarki Óskarsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "Croatia",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Austria",
+            "England",
+            "Poland",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Germany",
+            "Spain",
+            "England",
+            "Italy",
+            "Denmark",
+            "Portugal"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Germany",
+            "Belgium",
+            "Portugal"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Portugal"
+        ],
+        "1st place": "France",
+        "2nd place": "Portugal"
+    },
+    "Erlendur": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "Germany"
+        ],
+        "Second place in group": [
+            "Switzerland",
+            "Denmark",
+            "Austria",
+            "Croatia",
+            "Poland",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Germany",
+            "Belgium",
+            "Netherlands",
+            "Spain",
+            "Poland",
+            "Italy",
+            "Switzerland",
+            "France"
+        ],
+        "Semi finals qualifiers": [
+            "Germany",
+            "Netherlands",
+            "Belgium",
+            "France"
+        ],
+        "Finals qualifiers": [
+            "Germany",
+            "France"
+        ],
+        "1st place": "Germany",
+        "2nd place": "France"
+    },
+    "Guust Van Dijck": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Switzerland",
+            "Denmark",
+            "Austria",
+            "Czech Republic",
+            "Poland",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Netherlands",
+            "Spain",
+            "Poland",
+            "Italy",
+            "Switzerland",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Netherlands",
+            "Italy",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "Italy",
+            "Spain"
+        ],
+        "1st place": "Italy",
+        "2nd place": "Spain"
+    },
+    "Tryggve": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Switzerland",
+            "Denmark",
+            "Ukraine",
+            "Croatia",
+            "Sweden",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Portugal",
+            "Spain",
+            "Croatia",
+            "Italy",
+            "Denmark",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Portugal",
+            "Belgium",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Portugal"
+        ],
+        "1st place": "France",
+        "2nd place": "Portugal"
+    },
+    "Helgi Valur Gunnarsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Switzerland",
+            "Denmark",
+            "Austria",
+            "Croatia",
+            "Sweden",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Germany",
+            "Spain",
+            "Croatia",
+            "Italy",
+            "Denmark",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Germany",
+            "Belgium",
+            "England"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "England"
+        ],
+        "1st place": "England",
+        "2nd place": "France"
+    },
+    "Sævar S Hilmarsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "Scotland",
+            "Spain",
+            "Germany"
+        ],
+        "Second place in group": [
+            "Wales",
+            "Denmark",
+            "Ukraine",
+            "England",
+            "Sweden",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Germany",
+            "Belgium",
+            "Netherlands",
+            "Spain",
+            "England",
+            "Italy",
+            "Denmark",
+            "France"
+        ],
+        "Semi finals qualifiers": [
+            "Germany",
+            "Netherlands",
+            "Belgium",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "Belgium",
+            "Netherlands"
+        ],
+        "1st place": "Belgium",
+        "2nd place": "Netherlands"
+    },
+    "Jói Jó": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Poland",
+            "Portugal"
+        ],
+        "Second place in group": [
+            "Wales",
+            "Denmark",
+            "Ukraine",
+            "Croatia",
+            "Spain",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Portugal",
+            "Belgium",
+            "Germany",
+            "Poland",
+            "Croatia",
+            "Italy",
+            "Denmark",
+            "France"
+        ],
+        "Semi finals qualifiers": [
+            "Portugal",
+            "Germany",
+            "Belgium",
+            "France"
+        ],
+        "Finals qualifiers": [
+            "Portugal",
+            "France"
+        ],
+        "1st place": "Portugal",
+        "2nd place": "France"
+    },
+    "Sverrir Steinn": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "Portugal"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Ukraine",
+            "Croatia",
+            "Poland",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Portugal",
+            "Belgium",
+            "Germany",
+            "Spain",
+            "Poland",
+            "Italy",
+            "Denmark",
+            "France"
+        ],
+        "Semi finals qualifiers": [
+            "Portugal",
+            "Denmark",
+            "Belgium",
+            "France"
+        ],
+        "Finals qualifiers": [
+            "Portugal",
+            "France"
+        ],
+        "1st place": "France",
+        "2nd place": "Portugal"
+    },
+    "Ragnar Sigurjonsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Austria",
+            "Scotland",
+            "Sweden",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Netherlands",
+            "Spain",
+            "Scotland",
+            "Italy",
+            "Turkey",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Turkey",
+            "Belgium",
+            "England"
+        ],
+        "Finals qualifiers": [
+            "Belgium",
+            "England"
+        ],
+        "1st place": "England",
+        "2nd place": "Belgium"
+    },
+    "Arnar Ingason": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "Croatia",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Wales",
+            "Denmark",
+            "Austria",
+            "England",
+            "Sweden",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Portugal",
+            "Spain",
+            "England",
+            "Italy",
+            "Wales",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Portugal",
+            "Belgium",
+            "Germany"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Germany"
+        ],
+        "1st place": "Germany",
+        "2nd place": "France"
+    },
+    "Guillaume Janson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "Croatia",
+            "Spain",
+            "Germany"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Russia",
+            "Ukraine",
+            "England",
+            "Poland",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Germany",
+            "Portugal",
+            "Netherlands",
+            "Spain",
+            "England",
+            "Italy",
+            "Russia",
+            "France"
+        ],
+        "Semi finals qualifiers": [
+            "Germany",
+            "Netherlands",
+            "Italy",
+            "France"
+        ],
+        "Finals qualifiers": [
+            "Italy",
+            "France"
+        ],
+        "1st place": "Italy",
+        "2nd place": "France"
+    },
+    "Ólafur Kári": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Austria",
+            "Croatia",
+            "Poland",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Portugal",
+            "Netherlands",
+            "Spain",
+            "Croatia",
+            "Italy",
+            "Denmark",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Netherlands",
+            "Portugal",
+            "England"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "England"
+        ],
+        "1st place": "France",
+        "2nd place": "England"
+    },
+    "Ragnar Gylfason": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Switzerland",
+            "Denmark",
+            "Ukraine",
+            "Croatia",
+            "Poland",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Portugal",
+            "Spain",
+            "Poland",
+            "Italy",
+            "Switzerland",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Portugal",
+            "Belgium",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Spain"
+        ],
+        "1st place": "France",
+        "2nd place": "Spain"
+    },
+    "Viktor Hrafn Gudmundsson": {
+        "First place in group": [
+            "Switzerland",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Italy",
+            "Russia",
+            "Austria",
+            "Czech Republic",
+            "Sweden",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Germany",
+            "Spain",
+            "Sweden",
+            "Austria",
+            "Russia",
+            "Portugal"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Germany",
+            "Belgium",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Spain"
+        ],
+        "1st place": "Spain",
+        "2nd place": "France"
+    },
+    "Sigþór Guðmundsson": {
+        "First place in group": [
+            "Switzerland",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "Portugal"
+        ],
+        "Second place in group": [
+            "Italy",
+            "Denmark",
+            "Ukraine",
+            "Croatia",
+            "Sweden",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "Portugal",
+            "France",
+            "Scotland",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "Italy",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "Portugal",
+            "Scotland",
+            "France",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Spain"
+        ],
+        "1st place": "Spain",
+        "2nd place": "France"
+    },
+    "Anna Karlsdottir": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Ukraine",
+            "Scotland",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Wales",
+            "Denmark",
+            "Austria",
+            "Croatia",
+            "Sweden",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Poland",
+            "Spain",
+            "Sweden",
+            "Italy",
+            "Denmark",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Poland",
+            "Italy",
+            "Germany"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Germany"
+        ],
+        "1st place": "France",
+        "2nd place": "Germany"
+    },
+    "Kenneth": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Ukraine",
+            "Scotland",
+            "Sweden",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Netherlands",
+            "Spain",
+            "Sweden",
+            "Italy",
+            "Denmark",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Denmark",
+            "Italy",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Spain"
+        ],
+        "1st place": "France",
+        "2nd place": "Spain"
+    },
+    "Daniel Nikita Harber": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Ukraine",
+            "England",
+            "Poland",
+            "Portugal"
+        ],
+        "Second place in group": [
+            "Wales",
+            "Denmark",
+            "Netherlands",
+            "Croatia",
+            "Spain",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Portugal",
+            "Belgium",
+            "Germany",
+            "Poland",
+            "Spain",
+            "Netherlands",
+            "Denmark",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "Portugal",
+            "Germany",
+            "Belgium",
+            "England"
+        ],
+        "Finals qualifiers": [
+            "Portugal",
+            "England"
+        ],
+        "1st place": "England",
+        "2nd place": "Portugal"
+    },
+    "Oskar Orn Eythorsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "Portugal"
+        ],
+        "Second place in group": [
+            "Wales",
+            "Russia",
+            "Ukraine",
+            "Croatia",
+            "Poland",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "Portugal",
+            "France",
+            "Netherlands",
+            "Spain",
+            "Croatia",
+            "Italy",
+            "Wales",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "Portugal",
+            "Netherlands",
+            "France",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "Portugal",
+            "Spain"
+        ],
+        "1st place": "Portugal",
+        "2nd place": "Spain"
+    },
+    "Stefán Guðmundsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "Portugal"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Austria",
+            "Scotland",
+            "Sweden",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Portugal",
+            "Belgium",
+            "Germany",
+            "Spain",
+            "Scotland",
+            "Italy",
+            "Denmark",
+            "France"
+        ],
+        "Semi finals qualifiers": [
+            "Portugal",
+            "Germany",
+            "Belgium",
+            "France"
+        ],
+        "Finals qualifiers": [
+            "Portugal",
+            "France"
+        ],
+        "1st place": "Portugal",
+        "2nd place": "France"
+    },
+    "Sam Hewson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "Germany"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Ukraine",
+            "Croatia",
+            "Sweden",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Germany",
+            "Belgium",
+            "Netherlands",
+            "Spain",
+            "Sweden",
+            "Italy",
+            "Denmark",
+            "France"
+        ],
+        "Semi finals qualifiers": [
+            "Germany",
+            "Denmark",
+            "Belgium",
+            "France"
+        ],
+        "Finals qualifiers": [
+            "Belgium",
+            "France"
+        ],
+        "1st place": "Belgium",
+        "2nd place": "France"
+    },
+    "Hafþór Snær Þórsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Ukraine",
+            "Croatia",
+            "Sweden",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Germany",
+            "Spain",
+            "Croatia",
+            "Italy",
+            "Denmark",
+            "Portugal"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Germany",
+            "Belgium",
+            "Portugal"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Portugal"
+        ],
+        "1st place": "France",
+        "2nd place": "Portugal"
+    },
+    "Elvar Steinn Kjartansson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "Germany"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Austria",
+            "Croatia",
+            "Sweden",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "Germany",
+            "Belgium",
+            "France",
+            "Spain",
+            "Sweden",
+            "Italy",
+            "Turkey",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "Germany",
+            "France",
+            "Italy",
+            "England"
+        ],
+        "Finals qualifiers": [
+            "Germany",
+            "England"
+        ],
+        "1st place": "Germany",
+        "2nd place": "England"
+    },
+    "Gudmundur Óskarsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Switzerland",
+            "Denmark",
+            "Austria",
+            "Croatia",
+            "Sweden",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Germany",
+            "Spain",
+            "Croatia",
+            "Italy",
+            "Switzerland",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Germany",
+            "Italy",
+            "England"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "England"
+        ],
+        "1st place": "England",
+        "2nd place": "France"
+    },
+    "Rafal Brzeski": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Ukraine",
+            "Croatia",
+            "Slovakia",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Germany",
+            "Netherlands",
+            "Spain",
+            "Croatia",
+            "Italy",
+            "Turkey",
+            "Portugal"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Netherlands",
+            "Italy",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "Italy",
+            "Spain"
+        ],
+        "1st place": "Italy",
+        "2nd place": "Spain"
+    },
+    "Astvaldur  Johannsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "Croatia",
+            "Poland",
+            "Germany"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Ukraine",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Germany",
+            "Belgium",
+            "Portugal",
+            "Poland",
+            "Spain",
+            "Italy",
+            "Turkey",
+            "France"
+        ],
+        "Semi finals qualifiers": [
+            "Germany",
+            "Turkey",
+            "Belgium",
+            "France"
+        ],
+        "Finals qualifiers": [
+            "Belgium",
+            "France"
+        ],
+        "1st place": "Belgium",
+        "2nd place": "France"
+    },
+    "James Cox": {
+        "First place in group": [
+            "Italy",
+            "Denmark",
+            "Netherlands",
+            "England",
+            "Spain",
+            "Portugal"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Belgium",
+            "Ukraine",
+            "Croatia",
+            "Sweden",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Portugal",
+            "Denmark",
+            "Germany",
+            "Scotland",
+            "Sweden",
+            "Italy",
+            "Turkey",
+            "France"
+        ],
+        "Semi finals qualifiers": [
+            "Portugal",
+            "Turkey",
+            "Italy",
+            "France"
+        ],
+        "Finals qualifiers": [
+            "Portugal",
+            "Turkey"
+        ],
+        "1st place": "Portugal",
+        "2nd place": "Turkey"
+    },
+    "Sigurdur K": {
+        "First place in group": [
+            "Switzerland",
+            "Denmark",
+            "Netherlands",
+            "Croatia",
+            "Poland",
+            "France"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Belgium",
+            "Austria",
+            "England",
+            "Spain",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Denmark",
+            "Netherlands",
+            "Poland",
+            "Spain",
+            "Switzerland",
+            "Belgium",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Belgium",
+            "Denmark",
+            "Germany"
+        ],
+        "Finals qualifiers": [
+            "Denmark",
+            "Belgium"
+        ],
+        "1st place": "Denmark",
+        "2nd place": "Belgium"
+    },
+    "Anna Tabaszewska": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "Germany"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Russia",
+            "Ukraine",
+            "Czech Republic",
+            "Sweden",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Germany",
+            "Portugal",
+            "Netherlands",
+            "Spain",
+            "Sweden",
+            "Italy",
+            "Turkey",
+            "France"
+        ],
+        "Semi finals qualifiers": [
+            "Germany",
+            "Netherlands",
+            "Portugal",
+            "France"
+        ],
+        "Finals qualifiers": [
+            "Portugal",
+            "France"
+        ],
+        "1st place": "France",
+        "2nd place": "Portugal"
+    },
+    "Robert Scales": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "Croatia",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Wales",
+            "Denmark",
+            "Ukraine",
+            "England",
+            "Poland",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Netherlands",
+            "Spain",
+            "England",
+            "Italy",
+            "Wales",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Netherlands",
+            "Italy",
+            "Germany"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Netherlands"
+        ],
+        "1st place": "France",
+        "2nd place": "Netherlands"
+    },
+    "Sara": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Switzerland",
+            "Finland",
+            "Ukraine",
+            "Croatia",
+            "Sweden",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Portugal",
+            "Spain",
+            "Croatia",
+            "Italy",
+            "Switzerland",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Portugal",
+            "Belgium",
+            "England"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "England"
+        ],
+        "1st place": "France",
+        "2nd place": "England"
+    },
+    "Benedikt Óskarsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "Germany"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Ukraine",
+            "Scotland",
+            "Poland",
+            "France"
+        ],
+        "Quarter final qualifiers": [
+            "Germany",
+            "Belgium",
+            "Portugal",
+            "Spain",
+            "Scotland",
+            "Italy",
+            "Denmark",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "Germany",
+            "Portugal",
+            "Belgium",
+            "England"
+        ],
+        "Finals qualifiers": [
+            "Belgium",
+            "England"
+        ],
+        "1st place": "Belgium",
+        "2nd place": "England"
+    },
+    "Sævar Már Óskarsson": {
+        "First place in group": [
+            "Italy",
+            "Denmark",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Belgium",
+            "Ukraine",
+            "Croatia",
+            "Poland",
+            "Germany"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Denmark",
+            "Netherlands",
+            "Spain",
+            "Croatia",
+            "Italy",
+            "Turkey",
+            "Germany"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Netherlands",
+            "Italy",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Netherlands"
+        ],
+        "1st place": "France",
+        "2nd place": "Netherlands"
+    },
+    "Sverrir Hreggviðsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Austria",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Turkey",
+            "Denmark",
+            "Netherlands",
+            "Croatia",
+            "Poland",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Germany",
+            "Spain",
+            "Croatia",
+            "Italy",
+            "Denmark",
+            "Portugal"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Denmark",
+            "Belgium",
+            "Match 48 Winner"
+        ],
+        "Finals qualifiers": [
+            "France",
+            "Match 48 Winner"
+        ],
+        "1st place": "France",
+        "2nd place": "Match 48 Winner"
+    },
+    "Robert Robertsson": {
+        "First place in group": [
+            "Italy",
+            "Belgium",
+            "Netherlands",
+            "England",
+            "Spain",
+            "France"
+        ],
+        "Second place in group": [
+            "Switzerland",
+            "Denmark",
+            "Austria",
+            "Czech Republic",
+            "Poland",
+            "Portugal"
+        ],
+        "Quarter final qualifiers": [
+            "France",
+            "Belgium",
+            "Netherlands",
+            "Spain",
+            "Czech Republic",
+            "Italy",
+            "Denmark",
+            "England"
+        ],
+        "Semi finals qualifiers": [
+            "France",
+            "Netherlands",
+            "Italy",
+            "Spain"
+        ],
+        "Finals qualifiers": [
+            "Italy",
+            "Spain"
+        ],
+        "1st place": "Spain",
+        "2nd place": "Italy"
+    }
+}
