@@ -1,61 +1,97 @@
 import json
 
 import dash
+import dash_bootstrap_components as dbc
+import dash_core_components as dcc
 import dash_html_components as html
-import dash_table
+import pandas as pd
+import plotly.express as px
 
+from utils import format_table_data, get_points_table
 
-external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SUPERHERO])
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-#
-#
-# def build_dash():
-#     # assume you have a "long-form" data frame
-#     # see https://plotly.com/python/px-arguments/ for more options
-#
-#
-#     return html.Div(
-#         children=[
-#             html.H1(children="Hello Dash"),
-#             html.Div(
-#                 children=f"Dash: A web application framework for Python. {datetime.now()}"
-#             ),
-#             table
-#         ]
-#     )
-#
-#
-with open('data.json', 'r') as f:
+with open("data.json", "r") as f:
     data = json.loads(f.read())
-    formatted_data = sorted([
-        {
-            **{'Name': key},
-            **{
-                inner_key: (', '.join(inner_value) if isinstance(inner_value, list) else inner_value)
-                for inner_key, inner_value in value.items()
-            }
-        }
-        for key, value in data.items()
-    ], key=lambda k: k['Name'])
 
 
-app.layout = html.Div(
-    [
-        dash_table.DataTable(
-            id='table',
-            columns=[{"name": column, "id": column} for column in formatted_data[0].keys()],
-            data=formatted_data,
-            style_cell={
-                'whiteSpace': 'normal',
-                'height': 'auto',
-                'textAlign': 'left',
-                'font-family': 'sans-serif'
-            },
-        )
-    ]
-)
+def build_dash():
+    formatted_data = format_table_data(data)
+    points_table = get_points_table(data)
 
+    df = pd.DataFrame(points_table)
+
+    fig = px.bar(df, x="Name", y="Total points", color="Name")
+
+    return html.Div(
+        [
+            html.Br(),
+            dbc.Container(
+                [
+                    dbc.Row(
+                        [
+                            html.H1(children="Controlant staff, Euro 2020 competition "),
+                            html.Div(
+                                children="Warning: The points shown are not final and "
+                                "will change if and when competition results change"
+                            ),
+                        ],
+                        justify="center",
+                        align="center",
+                    ),
+                    html.Br(),
+                    dcc.Graph(id="points-graph", figure=fig),
+                    html.Br(),
+                    html.Br(),
+                    html.Br(),
+                    dbc.Table(
+                        [
+                            html.Thead(
+                                html.Tr([html.Th(column) for column in points_table[0].keys()])
+                            )
+                        ]
+                        + [
+                            html.Tbody(
+                                [
+                                    html.Tr([html.Td(value) for value in point_dict.values()])
+                                    for point_dict in points_table
+                                ]
+                            )
+                        ],
+                        bordered=True,
+                        striped=True,
+                        responsive=True,
+                        hover=True,
+                    ),
+                    html.Br(),
+                    html.Br(),
+                    html.Br(),
+                    dbc.Table(
+                        [
+                            html.Thead(
+                                html.Tr([html.Th(column) for column in formatted_data[0].keys()])
+                            )
+                        ]
+                        + [
+                            html.Tbody(
+                                [
+                                    html.Tr([html.Td(value) for value in choose_dict.values()])
+                                    for choose_dict in formatted_data
+                                ]
+                            )
+                        ],
+                        bordered=True,
+                        striped=True,
+                        responsive=True,
+                        hover=True,
+                    ),
+                ]
+            ),
+        ]
+    )
+
+
+app.layout = build_dash
 server = app.server
 
 if __name__ == "__main__":

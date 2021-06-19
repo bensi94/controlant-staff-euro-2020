@@ -34,7 +34,7 @@ SEMI_FINALS_QUALIFIERS_CELLS = ("G56", "G57", "L56", "L57")
 FINALS_QUALIFIERS_CELLS = ("G58", "L58")
 
 for file in os.listdir("sheets"):
-    if file.startswith('.'):
+    if file.startswith("."):
         continue
 
     print(f'Processing sheet: "{file}"')
