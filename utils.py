@@ -23,7 +23,7 @@ def format_table_data(data: Dict[str, Dict[str, Union[str, List]]]) -> List[Dict
 
 def _get_points(standings, chosen_teams) -> Dict[str, int]:
     first_key = "First place in group"
-    second_key = "First place in group"
+    second_key = "Second place in group"
 
     group_points = 0
 
