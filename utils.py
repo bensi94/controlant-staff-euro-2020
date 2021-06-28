@@ -3,6 +3,9 @@ from typing import Dict, Union, List
 from api import get_group_standings
 
 
+QUARTER_FINAL_QUALIFIERS = ("Belgium", "Italy", "Czech Republic", "Denmark", "Switzerland", "Spain")
+
+
 def format_table_data(data: Dict[str, Dict[str, Union[str, List]]]) -> List[Dict[str, str]]:
     return sorted(
         [
@@ -24,6 +27,7 @@ def format_table_data(data: Dict[str, Dict[str, Union[str, List]]]) -> List[Dict
 def _get_points(standings, chosen_teams) -> Dict[str, int]:
     first_key = "First place in group"
     second_key = "Second place in group"
+    quarter_key = "Quarter final qualifiers"
 
     group_points = 0
 
@@ -39,7 +43,13 @@ def _get_points(standings, chosen_teams) -> Dict[str, int]:
         elif team in standings[first_key]:
             group_points += 5
 
-    return {"Group points": group_points, "Total points": sum([group_points])}
+    quarter_points = sum(10 for team in chosen_teams[quarter_key]if team in QUARTER_FINAL_QUALIFIERS)
+
+    return {
+        "Group points": group_points,
+        "Quarter final point": quarter_points,
+        "Total points": sum([group_points, quarter_points])
+    }
 
 
 def get_points_table(data: Dict[str, Dict[str, Union[str, List]]]):
