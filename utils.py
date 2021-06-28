@@ -47,7 +47,7 @@ def _get_points(standings, chosen_teams) -> Dict[str, int]:
 
     return {
         "Group points": group_points,
-        "Quarter final point": quarter_points,
+        "Quarter final points": quarter_points,
         "Total points": sum([group_points, quarter_points])
     }
 
