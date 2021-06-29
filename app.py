@@ -42,6 +42,7 @@ def build_dash():
                     html.Br(),
                     dcc.Graph(id="points-graph", figure=fig),
                     html.Br(),
+                    html.H3(children="Last updated 29/06 18:00 after England match"),
                     html.Br(),
                     html.Br(),
                     dbc.Table(

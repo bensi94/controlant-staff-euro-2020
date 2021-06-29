@@ -3,7 +3,7 @@ from typing import Dict, Union, List
 from api import get_group_standings
 
 
-QUARTER_FINAL_QUALIFIERS = ("Belgium", "Italy", "Czech Republic", "Denmark", "Switzerland", "Spain")
+QUARTER_FINAL_QUALIFIERS = ("Belgium", "Italy", "Czech Republic", "Denmark", "Switzerland", "Spain", "England")
 
 
 def format_table_data(data: Dict[str, Dict[str, Union[str, List]]]) -> List[Dict[str, str]]:
@@ -55,8 +55,20 @@ def _get_points(standings, chosen_teams) -> Dict[str, int]:
 def get_points_table(data: Dict[str, Dict[str, Union[str, List]]]):
     group_standings = get_group_standings()
 
-    return sorted(
-        [{**{"Name": key}, **_get_points(group_standings, value)} for key, value in data.items()],
+    table_list = sorted(
+        [{**{"Position": 0, "Name": key}, **_get_points(group_standings, value)} for key, value in data.items()],
         key=lambda k: k["Total points"],
         reverse=True,
     )
+
+    current_position = 1
+    current_score = 0
+
+    for player_number, player in enumerate(table_list, start=1):
+        if player["Total points"] != current_score:
+            current_position = player_number
+            current_score = player["Total points"]
+
+        player["Position"] = current_position
+
+    return table_list

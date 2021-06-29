@@ -58,7 +58,7 @@
         ],
         "Quarter final qualifiers": [
             "France",
-            "Match 40 Winner",
+            "Portugal",
             "Netherlands",
             "Spain",
             "Czech Republic",
@@ -69,15 +69,15 @@
         "Semi finals qualifiers": [
             "France",
             "Netherlands",
-            "Match 40 Winner",
+            "Portugal",
             "Spain"
         ],
         "Finals qualifiers": [
             "France",
-            "Match 50 Winner"
+            "Netherlands"
         ],
         "1st place": "France",
-        "2nd place": "Match 50 Winner"
+        "2nd place": "Netherlands"
     },
     "Hákon Haraldsson": {
         "First place in group": [
@@ -1510,14 +1510,14 @@
             "France",
             "Denmark",
             "Belgium",
-            "Match 48 Winner"
+            "Portugal"
         ],
         "Finals qualifiers": [
             "France",
-            "Match 48 Winner"
+            "Portugal"
         ],
         "1st place": "France",
-        "2nd place": "Match 48 Winner"
+        "2nd place": "Portugal"
     },
     "Robert Robertsson": {
         "First place in group": [
