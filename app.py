@@ -30,7 +30,9 @@ def build_dash():
                 [
                     dbc.Row(
                         [
-                            html.H1(children="Controlant staff, Euro 2020 competition "),
+                            html.H1(
+                                children="Controlant staff, Euro 2020 competition "
+                            ),
                             html.Div(
                                 children="Warning: The points shown are not final and "
                                 "will change if and when competition results change"
@@ -42,19 +44,31 @@ def build_dash():
                     html.Br(),
                     dcc.Graph(id="points-graph", figure=fig),
                     html.Br(),
-                    html.H3(children="Last updated 29/06 18:00 after England match"),
+                    html.H3(
+                        children="Last updated 29/06 21:45 after Sweden - Ukraine match"
+                    ),
                     html.Br(),
                     html.Br(),
                     dbc.Table(
                         [
                             html.Thead(
-                                html.Tr([html.Th(column) for column in points_table[0].keys()])
+                                html.Tr(
+                                    [
+                                        html.Th(column)
+                                        for column in points_table[0].keys()
+                                    ]
+                                )
                             )
                         ]
                         + [
                             html.Tbody(
                                 [
-                                    html.Tr([html.Td(value) for value in point_dict.values()])
+                                    html.Tr(
+                                        [
+                                            html.Td(value)
+                                            for value in point_dict.values()
+                                        ]
+                                    )
                                     for point_dict in points_table
                                 ]
                             )
@@ -70,13 +84,23 @@ def build_dash():
                     dbc.Table(
                         [
                             html.Thead(
-                                html.Tr([html.Th(column) for column in formatted_data[0].keys()])
+                                html.Tr(
+                                    [
+                                        html.Th(column)
+                                        for column in formatted_data[0].keys()
+                                    ]
+                                )
                             )
                         ]
                         + [
                             html.Tbody(
                                 [
-                                    html.Tr([html.Td(value) for value in choose_dict.values()])
+                                    html.Tr(
+                                        [
+                                            html.Td(value)
+                                            for value in choose_dict.values()
+                                        ]
+                                    )
                                     for choose_dict in formatted_data
                                 ]
                             )

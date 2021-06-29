@@ -3,17 +3,30 @@ from typing import Dict, Union, List
 from api import get_group_standings
 
 
-QUARTER_FINAL_QUALIFIERS = ("Belgium", "Italy", "Czech Republic", "Denmark", "Switzerland", "Spain", "England")
+QUARTER_FINAL_QUALIFIERS = (
+    "Belgium",
+    "Italy",
+    "Czech Republic",
+    "Denmark",
+    "Switzerland",
+    "Spain",
+    "England",
+    "Ukraine",
+)
 
 
-def format_table_data(data: Dict[str, Dict[str, Union[str, List]]]) -> List[Dict[str, str]]:
+def format_table_data(
+    data: Dict[str, Dict[str, Union[str, List]]]
+) -> List[Dict[str, str]]:
     return sorted(
         [
             {
                 **{"Name": key},
                 **{
                     inner_key: (
-                        ", ".join(inner_value) if isinstance(inner_value, list) else inner_value
+                        ", ".join(inner_value)
+                        if isinstance(inner_value, list)
+                        else inner_value
                     )
                     for inner_key, inner_value in value.items()
                 },
@@ -43,12 +56,14 @@ def _get_points(standings, chosen_teams) -> Dict[str, int]:
         elif team in standings[first_key]:
             group_points += 5
 
-    quarter_points = sum(10 for team in chosen_teams[quarter_key]if team in QUARTER_FINAL_QUALIFIERS)
+    quarter_points = sum(
+        10 for team in chosen_teams[quarter_key] if team in QUARTER_FINAL_QUALIFIERS
+    )
 
     return {
         "Group points": group_points,
         "Quarter final points": quarter_points,
-        "Total points": sum([group_points, quarter_points])
+        "Total points": sum([group_points, quarter_points]),
     }
 
 
@@ -56,7 +71,10 @@ def get_points_table(data: Dict[str, Dict[str, Union[str, List]]]):
     group_standings = get_group_standings()
 
     table_list = sorted(
-        [{**{"Position": 0, "Name": key}, **_get_points(group_standings, value)} for key, value in data.items()],
+        [
+            {**{"Position": 0, "Name": key}, **_get_points(group_standings, value)}
+            for key, value in data.items()
+        ],
         key=lambda k: k["Total points"],
         reverse=True,
     )
