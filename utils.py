@@ -16,7 +16,9 @@ QUARTER_FINAL_QUALIFIERS = (
 
 SEMI_FINAL_QUALIFIERS = (
     "Spain",
-    "Italy"
+    "Italy",
+    "England",
+    "Denmark"
 )
 
 

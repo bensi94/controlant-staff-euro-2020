@@ -45,7 +45,7 @@ def build_dash():
                     dcc.Graph(id="points-graph", figure=fig),
                     html.Br(),
                     html.H3(
-                        children="Last updated 3/07 13:00 after Italy - Belgium match"
+                        children="Last updated 3/07 23:59 after England - Ukraine match"
                     ),
                     html.Br(),
                     html.Br(),
