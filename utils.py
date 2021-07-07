@@ -21,6 +21,10 @@ SEMI_FINAL_QUALIFIERS = (
     "Denmark"
 )
 
+FINAL_QUALIFIERS = (
+    "Italy",
+)
+
 
 def format_table_data(
     data: Dict[str, Dict[str, Union[str, List]]]
@@ -49,6 +53,7 @@ def _get_points(standings, chosen_teams) -> Dict[str, int]:
     second_key = "Second place in group"
     quarter_key = "Quarter final qualifiers"
     semi_key = "Semi finals qualifiers"
+    final_key = "Finals qualifiers"
 
     group_points = 0
 
@@ -72,11 +77,16 @@ def _get_points(standings, chosen_teams) -> Dict[str, int]:
         12 for team in chosen_teams[semi_key] if team in SEMI_FINAL_QUALIFIERS
     )
 
+    final_points = sum(
+        16 for team in chosen_teams[final_key] if team in FINAL_QUALIFIERS
+    )
+
     return {
         "Group points": group_points,
         "Quarter final points": quarter_points,
         "Semi finals qualifiers": semi_points,
-        "Total points": sum((group_points, quarter_points, semi_points)),
+        "Finals qualifiers points": final_points,
+        "Total points": sum((group_points, quarter_points, semi_points, final_points)),
     }
 
 
