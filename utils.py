@@ -23,6 +23,7 @@ SEMI_FINAL_QUALIFIERS = (
 
 FINAL_QUALIFIERS = (
     "Italy",
+    "England"
 )
 
 
