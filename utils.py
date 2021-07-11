@@ -26,6 +26,10 @@ FINAL_QUALIFIERS = (
     "England"
 )
 
+FIRST_PLACE = "Italy"
+
+SECOND_PLACE = "England"
+
 
 def format_table_data(
     data: Dict[str, Dict[str, Union[str, List]]]
@@ -82,12 +86,21 @@ def _get_points(standings, chosen_teams) -> Dict[str, int]:
         16 for team in chosen_teams[final_key] if team in FINAL_QUALIFIERS
     )
 
+    final_result_points = 0
+
+    if chosen_teams["1st place"] == FIRST_PLACE:
+        final_result_points += 20
+
+    if chosen_teams["2nd place"] == SECOND_PLACE:
+        final_result_points += 12
+
     return {
         "Group points": group_points,
         "Quarter final points": quarter_points,
         "Semi finals qualifiers": semi_points,
         "Finals qualifiers points": final_points,
-        "Total points": sum((group_points, quarter_points, semi_points, final_points)),
+        "Points from final result": final_result_points,
+        "Total points": sum((group_points, quarter_points, semi_points, final_points, final_result_points)),
     }
 
 

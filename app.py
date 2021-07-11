@@ -34,8 +34,7 @@ def build_dash():
                                 children="Controlant staff, Euro 2020 competition "
                             ),
                             html.Div(
-                                children="Warning: The points shown are not final and "
-                                "will change if and when competition results change"
+                                children="Final result"
                             ),
                         ],
                         justify="center",
@@ -45,7 +44,7 @@ def build_dash():
                     dcc.Graph(id="points-graph", figure=fig),
                     html.Br(),
                     html.H3(
-                        children="Last updated 7/07 22:45 after England - Denmark match"
+                        children="Last updated 11/07 23:00 after final"
                     ),
                     html.Br(),
                     html.Br(),
